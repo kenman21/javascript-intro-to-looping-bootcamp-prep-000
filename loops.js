@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function forLoop(array) {
   for (let i = 0; i<25; i++) {
     array.push(`I am ${i} strange loops.`); 
@@ -23,3 +24,11 @@ function doWhileLoop(array){
   
 }
   
+=======
+
+function forLoop(array) {
+  for (var i = 0; i < 25; i++) {
+    array.push(console.log(`I am ${i} strange loop`));
+}
+}
+>>>>>>> ea69c70283de438a18e2b199efbc3580e1c87141
